@@ -5,3 +5,6 @@ SELECT *
 FROM dependents
 WHERE employee_id = 1;
 
+UPDATE employees
+SET salary = 85000
+WHERE employee_id = 1;
