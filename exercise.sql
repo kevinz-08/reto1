@@ -8,3 +8,17 @@ WHERE employee_id = 1;
 UPDATE employees
 SET salary = 85000
 WHERE employee_id = 1;
+
+SELECT *
+FROM employees
+WHERE department_id = 10;
+
+SELECT *
+FROM employees
+WHERE department_id = 20;
+
+DELETE FROM dependents
+WHERE employee_id = 2;
+
+DELETE from employees
+WHERE employee_id = 2;
